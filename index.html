@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bage</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/my-bage.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">Abood</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#main">Main</a></li>
+                    <li><a href="#feat">Features</a></li>
+                    <li><a href="#proj">Projects</a></li>
+                    <li><a href="#cont">Contact</a></li>
+                    <li><a href="#img">My Images</a></li>
+                </ul>
+            </nav> 
+            
+        </div>
+    </header>
+    <section class="main" id="main">
+        <div class="container">
+            <div class="text">
+                <p>Hello, I'm Abood</p>
+                <h2>Frot-End Developer</h2>
+                <p><a href="#">View my work</a></p>
+            </div>
+            <div class="links">
+                <a href="#" target="_blank" title="Go To Github"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" title="Go To Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/i9ttn/" target="_blank" title="Go To Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100023300804628" target="_blank" title="Go To Facebook"><i class="fab fa-facebook-square"></i></a>
+            </div>
+        </div>
+        <a href="#feat"><i class="fas fa-angle-double-down go-down"></i></a>
+    </section>
+    <section class="feat" id="feat">
+        <div class="container">
+            <h2 class="main-title">Features</h2>
+            <div class="content">
+                <div class="box quality">
+                    <div class="image">
+                        <img src="images/features-01.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Quality</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+                <div class="box time">
+                    <div class="image">
+                        <img src="images/features-02.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Time</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+                <div class="box passion">
+                    <div class="image">
+                        <img src="images/features-03.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Passion</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+                        <a href="#">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="proj" id="proj">
+        <div class="container">
+            <h2 class="main-title">Projects</h2>
+            <div class="content">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/gallery-01.png" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/gallery-02.png" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/gallery-03.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/gallery-04.png" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/gallery-05.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/gallery-06.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="myImg" id="img">
+        <div class="container">
+            <h2 class="main-title">My Images</h2>
+            <div class="images">
+                <p class="split">
+                    <img class="active" src="images 1/IMG-20220122-WA0011.jpg" alt="">
+                    <img src="images 1/IMG-20220127-WA0030.jpg" alt="">
+                    <img src="images 1/IMG-20220502-WA0015.jpg" alt="">
+                    <img src="images 1/IMG-20220502-WA0022.jpg" alt="">
+                    <img src="images 1/IMG-20220502-WA0032.jpg" alt="">
+                </p>
+            </div>
+            <div class="function">
+                <p class="next">Next</p>
+                <p class="uller">
+                    <ul></ul>
+                </p>
+                <p class="prev disabeld">prevrious</p>
+            </div>
+        </div>
+    </section>
+    <section class="games">
+        <p>Typing Speed Text Game</p>
+        <div class="container">
+            <div class="lvls">
+                <p class="easy">Easy</p>
+                <p class="normal">Medium</p>
+                <p class="hard">Hard</p>
+            </div>
+            <div class="lvlAndSec">
+                You Are Playing On <span class="level"></span> Level & You Hava <span class="secound"></span>Seconds To Type The Word. 
+            </div>
+            <button class="start">Start Game</button>
+            <div class="word"></div>
+            <input type="text" name="" id="inputWord">
+            <div class="words">
+                <p>Words Will Show Here </p>
+            </div>
+            <div class="timeAndSco">
+                <p>Time Left: <span class="timeLift"></span>Seconds</p>
+                <p>Score: <span class="score"></span> Form: <span class="from"></span></p>
+            </div>
+            <div class="goodOrBad"></div>
+        </div>
+    </section>
+    <footer id="cont">
+        <div class="container">
+            <p>Let's work together</p>
+            <div class="content">
+                <a href="#">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+905013495530</p>
+                </a>
+                <a href="#">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>Abood501@gmail.com</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <span class="up">UP</span>
+    <script src="page.js"></script>
+</body>
+</html>
